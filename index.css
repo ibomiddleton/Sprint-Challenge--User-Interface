@@ -51,6 +51,23 @@ table {
     box-sizing: border-box;
 }
 
+.header {
+    display: flex;
+}
+.nav {
+    margin-top: 25px;
+}
+.nav a {
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.big-img {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -144,3 +161,32 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* Code for About page */
+.about {
+    margin-top: 15px;
+    border-bottom: 1px dashed;
+}
+.about p {
+    margin-bottom: 10px;
+}
+
+.first-content {
+    display: flex;
+    margin-top: 25px;
+    border-bottom: 1px dashed;
+}
+.second-content {
+    display: flex;
+    margin-top: 25px;
+    border-bottom: 1px dashed;
+}
+button {
+    margin: 10px;
+    background: white;
+    border: 2px solid black;
+}
+.last-content {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
